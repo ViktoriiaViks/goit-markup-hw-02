@@ -4,8 +4,9 @@
   --text-color: #212121;
   --main-back-color: #ffffff;
   --section-color: #2f303a;
-  --address-color: rgba(255, 255, 255, 0.6);
+  --address-color: #ffffff99;
   --team-back-color: #f5f4fa;
+  --sub-text-color: #757575;
 }
 .page {
   font-family: Roboto, sans-serif;
@@ -33,7 +34,7 @@
 }
 .filter-button {
   color: var(--main-text-color);
-  background-color: #f5f4fa;
+  background-color: var(--team-back-color);
   padding: 10px 32px;
   font-family: Roboto, sans-serif;
   font-size: 16px;
@@ -51,7 +52,7 @@
 }
 .text {
   margin: 10px 0 0 0;
-  color: #757575;
+  color: var(--sub-text-color);
   font-weight: 400;
 }
 .list-title {
